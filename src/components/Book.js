@@ -1,6 +1,8 @@
-import React from "react";
-import '../Styling/Book.css'
+import React from 'react';
+import '../Styling/Book.css';
+
 const Book = (props) => {
+  /* eslint-disable react/prop-types */
   const { title, author } = props;
   return (
     <div className="book-container container">
