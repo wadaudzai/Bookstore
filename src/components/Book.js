@@ -1,12 +1,13 @@
 import React from "react";
+import '../Styling/Book.css'
 const Book = (props) => {
   const { title, author } = props;
   return (
-    <div>
-      <div>
+    <div className="book-container container">
+      <div className="book-info-container">
         <h2>{title}</h2>
         <p>{author}</p>
-        <div>
+        <div className="book-actions-container">
           <p>Comments</p>
           <p>Remove</p>
           <p>Edit</p>

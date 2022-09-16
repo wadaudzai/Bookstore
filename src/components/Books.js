@@ -5,7 +5,6 @@ class Books extends React.Component {
         return(
             <div>
             <Booklist />
-            <h1> walid</h1>
             </div>
         )
     }
