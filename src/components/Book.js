@@ -1,8 +1,8 @@
 import React from 'react';
 import '../Styling/Book.css';
+import propTypes from 'prop-types';
 
 const Book = (props) => {
-  /* eslint-disable react/prop-types */
   const { title, author } = props;
   return (
     <div className="book-container container">
@@ -23,6 +23,11 @@ const Book = (props) => {
       </div>
     </div>
   );
+};
+
+Book.propTypes = {
+  title: propTypes.string.isRequired,
+  author: propTypes.string.isRequired,
 };
 
 export default Book;

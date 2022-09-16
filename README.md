@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Math Magicians
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> This project was built to display a simple react app with components there are several parts of this project which display books, a form to submit it and other functionalities but it isn't complete yet so unfortunately I cannot give you more information.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Built With
 
-### `npm start`
+- Javascript
+- React
+- Webpack, Babel
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To start with this project. You have to run npm install. When you want to build the project run npm build and to start the project and run it on a browser run npm start. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+You just need a good computer and a code editor. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Authors
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+👤 **Author1**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- GitHub: [@wadaudzai](https://github.com/wadaudzai)
+- Twitter: [@wadaudzai](https://twitter.com/wadaudzai)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/wadaudzai)
 
-### `npm run eject`
+## 🤝 Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contributions, issues, and feature requests are welcome!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Feel free to check the [issues page](https://github.com/wadaudzai/math-magicians/issues).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Show your support
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Give a ⭐️ if you like this project!
 
-## Learn More
+## 📝 License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is [MIT](./LICENSE) licensed.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
