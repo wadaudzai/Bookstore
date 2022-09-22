@@ -2,19 +2,23 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Provider } from 'react-redux';
 import Navbar from './components/navbar';
 import Books from './components/Books';
 import Categories from './components/Categories';
+import store from './redux/configureStore';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
-    <Navbar />
-    <Routes>
-      <Route path="/" element={<Books />} />
-      <Route path="/Categories" element={<Categories />} />
-    </Routes>
-  </BrowserRouter>,
+  <Provider store={store}>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Books />} />
+        <Route path="/Categories" element={<Categories />} />
+      </Routes>
+    </BrowserRouter>
+  </Provider>,
 
 );
 
