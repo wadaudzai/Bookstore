@@ -7,6 +7,7 @@ const AddBook = () => {
   const dispatch = useDispatch();
   const [titleName, setTitle] = useState('');
   const [authorName, setAuthor] = useState('');
+  const [categoryTitle, setCategory] = useState('');
 
   return (
     <div className="container flex-column">
@@ -14,16 +15,31 @@ const AddBook = () => {
       <form className="flex">
         <input placeholder="Book Title" name="title" value={titleName} onInput={(e) => setTitle(e.target.value)} />
         <input placeholder="Author" name="author" value={authorName} onInput={(e) => setAuthor(e.target.value)} />
+        <select
+          name="categories"
+          onChange={(e) => {
+            setCategory(e.target.value);
+          }}
+          required
+        >
+          <option value="">Category</option>
+          <option value="Horror">Horror</option>
+          <option value="Romance">Romance</option>
+          <option value="Fantasy">Fantasy</option>
+          <option value="Fiction">Fiction</option>
+        </select>
         <button
           type="button"
           onClick={() => {
             dispatch(addBook({
               title: titleName,
               author: authorName,
-              id: uuidv4(),
+              item_id: uuidv4(),
+              category: categoryTitle,
             }));
             setTitle('');
             setAuthor('');
+            setCategory('');
           }}
         >
           ADD BOOK
