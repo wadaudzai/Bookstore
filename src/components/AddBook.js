@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
 import { addBook } from '../redux/books/books';
+import '../Styling/AddBook.css';
 
 const AddBook = () => {
   const dispatch = useDispatch();
@@ -10,17 +11,18 @@ const AddBook = () => {
   const [categoryTitle, setCategory] = useState('');
 
   return (
-    <div className="container flex-column">
-      <h3>ADD NEW BOOK</h3>
-      <form className="flex">
-        <input placeholder="Book Title" name="title" value={titleName} onInput={(e) => setTitle(e.target.value)} />
-        <input placeholder="Author" name="author" value={authorName} onInput={(e) => setAuthor(e.target.value)} />
+    <div className="form-container">
+      <h3 className="add-book">ADD NEW BOOK</h3>
+      <form className="form">
+        <input placeholder="Book Title" name="title" value={titleName} onInput={(e) => setTitle(e.target.value)} className="input" />
+        <input placeholder="Author" name="author" value={authorName} onInput={(e) => setAuthor(e.target.value)} className="input" />
         <select
           name="categories"
           onChange={(e) => {
             setCategory(e.target.value);
           }}
           required
+          className="input"
         >
           <option value="">Category</option>
           <option value="Horror">Horror</option>
@@ -41,6 +43,7 @@ const AddBook = () => {
             setAuthor('');
             setCategory('');
           }}
+          className="button-add"
         >
           ADD BOOK
         </button>
