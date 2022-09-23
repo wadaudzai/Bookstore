@@ -22,7 +22,7 @@
 
 .category-text {
   opacity: 0.5;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 0.875rem;
   font-weight: bold;
   font-stretch: normal;
@@ -30,7 +30,6 @@
   line-height: normal;
   letter-spacing: normal;
   color: #121212;
-
 }
 
 .title {
@@ -45,7 +44,7 @@
 }
 
 .author {
-  font-family: RobotoSlab;
+  font-family: RobotoSlab, sans-serif;
   font-size: 0.875rem;
   font-weight: 300;
   font-stretch: normal;
@@ -56,7 +55,7 @@
 }
 
 .button_remove {
-  font-family: RobotoSlab;
+  font-family: RobotoSlab, sans-serif;
   font-size: 0.875rem;
   font-weight: 300;
   font-stretch: normal;
@@ -65,7 +64,7 @@
   letter-spacing: normal;
   color: #4386bf;
   background-color: #fff;
-  border: 0px;
+  border: 0;
   text-align: start;
   border-right: 1px solid;
   height: 1.188rem;
@@ -85,7 +84,7 @@
 }
 
 .percentage {
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 2rem;
   font-weight: normal;
   font-stretch: normal;
@@ -97,7 +96,7 @@
 
 .completed {
   opacity: 0.5;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 0.875rem;
   font-weight: normal;
   font-stretch: normal;
@@ -109,7 +108,7 @@
 
 .current-chapter {
   opacity: 0.5;
-  font-family: RobotoSlab;
+  font-family: RobotoSlab, sans-serif;
   font-size: 0.813rem;
   font-weight: 300;
   font-stretch: normal;
@@ -120,7 +119,7 @@
 }
 
 .chapter {
-  font-family: RobotoSlab;
+  font-family: RobotoSlab, sans-serif;
   font-size: 1rem;
   font-weight: 300;
   font-stretch: normal;
